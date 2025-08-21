@@ -21,7 +21,6 @@ public class AdministradorServico : IAdministradorServico
         _contexto.Administradores.Add(administrador);
         _contexto.SaveChanges();
         return administrador;
-        
     }
 
     public Administrador? BuscaPorId(int id)
